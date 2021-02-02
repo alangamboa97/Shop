@@ -1,0 +1,7 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["esPa+"]); }
+
+__d("CrisisClickUnitFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743531");c=b("FalcoLoggerInternal").create("crisis_click_unit",a);e.exports=c}),null);
+__d("CrisisToolViewPageFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743532");c=b("FalcoLoggerInternal").create("crisis_tool_view_page",a);e.exports=c}),null);
+__d("CrisisViewModuleFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743533");c=b("FalcoLoggerInternal").create("crisis_view_module",a);e.exports=c}),null);
+__d("CrisisViewUnitFalcoEvent",["FalcoLoggerInternal","getFalcoLogPolicy_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getFalcoLogPolicy_DO_NOT_USE")("1743534");c=b("FalcoLoggerInternal").create("crisis_view_unit",a);e.exports=c}),null);
+__d("CoronavirusStatsLevel",[],(function(a,b,c,d,e,f){a=Object.freeze({UNKNOWN:-1,GLOBAL:0,COUNTRY:1,REGION:2,COUNTY:3,CITY:4});e.exports=a}),null);

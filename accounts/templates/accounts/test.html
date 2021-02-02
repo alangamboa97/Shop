@@ -1,0 +1,55 @@
+{% extends 'accounts/main.html' %}
+
+{% block content %}
+
+
+
+<script src="https://unpkg.com/vue@next"></script>
+   
+
+    <div id="counter">
+       Contador dinamico [[ counter ]]
+    </div>
+    <div id="app2">
+        <span v-bind:title = "message">
+            Mueva el mouse sobre mí durante unos segundos
+    para ver mi título enlazado dinámicamente.
+        </span>
+    </div>
+
+<script>
+
+  const Counter = {
+  data() {
+    return {
+      counter: 0
+    }
+  },
+  delimiters: ["[[","]]"],
+  mounted() {
+    setInterval(() => {
+      this.counter++
+    }, 1000)
+        }
+    }
+
+    const app2 ={
+        data(){
+            return{
+                message: 'Usted cargo esta pagina el ' + new Date().toLocaleDateString()
+            }
+        },
+        
+    }
+
+
+Vue.createApp(Counter).mount('#counter')
+Vue.createApp(app2).mount('#app2')
+
+   
+ 
+
+
+     
+</script>
+{% endblock content %}
